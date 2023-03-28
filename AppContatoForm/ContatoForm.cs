@@ -45,7 +45,7 @@ namespace AppContatoForm
             comando.Parameters.AddWithValue("@_email", email);
             
             comando.ExecuteNonQuery();
-            conexao.Close();
+            //conexao.Close();
         }
     }
 }
